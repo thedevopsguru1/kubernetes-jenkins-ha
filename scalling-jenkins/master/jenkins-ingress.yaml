@@ -21,7 +21,7 @@ spec:
        pathType: Prefix
        backend:
          service:
-           name: argocd-server
+           name: jenkins-master-service
            port:
              name: http
  tls:
