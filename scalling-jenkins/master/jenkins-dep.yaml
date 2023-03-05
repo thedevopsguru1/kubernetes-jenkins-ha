@@ -23,5 +23,5 @@
       spec:
         containers:
           - name: "jenkins-master"
-            image: "keaz/jenkins-master:alpine"
+            image: "jenkins/jenkins:lts-jdk11"
             imagePullPolicy: "IfNotPresent"
